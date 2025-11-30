@@ -1,0 +1,8 @@
+n=int(input())
+y=int(n/365)
+n=n-(365*y)
+m=int(n/30)
+n=n-(m*30)
+print(y,"years")
+print(m,"months")
+print(n,"days")
