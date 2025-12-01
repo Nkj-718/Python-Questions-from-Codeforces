@@ -1,0 +1,19 @@
+a,op,b,equal,result=input().split()
+a=int(a)
+b=int(b)
+result=int(result)
+if(op=="+"):
+    if((a+b)==result):
+        print("Yes")
+    else:
+        print(a+b)
+elif(op=="-"):
+    if((a-b)==result):
+        print("Yes")
+    else:
+        print(a-b)
+else:
+    if((a*b)==result):
+        print("Yes")
+    else:
+        print(a*b)
