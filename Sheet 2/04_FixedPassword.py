@@ -1,0 +1,9 @@
+check=int(input())
+password=1999
+while(True):
+    if(check==password):
+        print("Correct")
+        break
+    else:
+        print("Wrong")
+    check=int(input())
